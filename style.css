@@ -1,0 +1,54 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 24-Jul-2018, 20:05:26
+    Author     : Asare
+*/
+
+body{
+    background: url("images/music-band.jpg") !important;
+    background-repeat: no-repeat;
+}
+.keys{
+    position: absolute;
+    top: 250px;
+    left:200px;
+    display: flex;
+    margin: auto;
+    padding: 10px;
+     
+}
+.key{
+    position: relative;
+    padding: 15px;
+    margin-right: 10px;
+    margin-left: 10px;
+    background-color: gray;
+    border: 3px solid black;
+    color: whitesmoke;
+    text-align: center; 
+    width: 40px;
+    font-size: 20px;
+    transition: all .10s;  
+}
+
+.playing{
+    
+    transform: scale(1.1);
+    border-color: yellow;
+    box-shadow: 0px 0px 3px 5px yellow;
+}
+.sound{
+    position: absolute;
+    width: 25px;
+    left: -2px;
+    bottom: 0px;
+    padding-right: 20px;
+    padding-left: 25px;
+    color: yellow;
+    text-align: center;
+    font-size: 14px;    
+}
